@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Sistema de identificação de nacionalidade</h1>
+    Qual sua nacionalidade: <input type="text" name="txt" id="txt">
+    <input type="button" value="Verificar se é brasileiro!" onclick="condicao()">
+    <div id="res"></div>
+    <script>
+        function condicao(){
+            var pais = 'Eua'
+            var res = window.document.getElementById('res')
+            res.innerTextHTML = `<p>Seu país é <strong>${pais}</strong>`
+            //console.log(`Vivendo em ${pais}`)
+        if (pais == 'Brasil'){
+            res.innerText += `Você é Brasileiro`
+        } 
+        }
+    </script>
+</body>
+</html>
