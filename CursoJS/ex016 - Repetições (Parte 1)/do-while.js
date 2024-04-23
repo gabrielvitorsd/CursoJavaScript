@@ -1,5 +1,5 @@
 var c = 1 //Criando a variável contador.
-do { (c <= 6) //"Enquanto" que é igual a "while" o contador "c" for menor que 6, tudo que está dentro do bloco vai acontecer.
+do { //"Enquanto" que é igual a "while" o contador "c" for menor que 6, tudo que está dentro do bloco vai acontecer.
     console.log(`Passo ${c}`)
     c ++ //Significa: c = c + 1
     /* c = 1
