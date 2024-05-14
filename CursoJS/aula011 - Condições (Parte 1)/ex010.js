@@ -1,4 +1,4 @@
-var velocidade =  80
+var velocidade =  110
 console.log(`A velocidade do seu carro é ${velocidade}km/h`) //Neste caso para puxar o placeholder"${velocidade}" foi usado a crase
 if (velocidade > 60 ) { //CONDIÇÃO SIMPLES
     console.log(`Você ultrapassou a velocidade permitida. MULTADO!`)
